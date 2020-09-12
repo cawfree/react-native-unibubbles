@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "use-deep-compare-effect": "^1.4.0"
+  }
+}

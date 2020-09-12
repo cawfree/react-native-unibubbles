@@ -1,8 +1,8 @@
 import React from "react";
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, Animated } from "react-native";
 import { useWindowDimensions } from "react-native-use-dimensions";
 
-import { UniBubbles } from "./lib";
+import { UniBubbles, useUniBubbles } from "./lib";
 
 const styles = StyleSheet.create({
   container: {
