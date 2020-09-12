@@ -2,7 +2,7 @@ import React from "react";
 import { TouchableOpacity, StyleSheet, Animated, Platform } from "react-native";
 import { useWindowDimensions } from "react-native-use-dimensions";
 
-import { UniBubbles, useUniBubbles } from "./lib";
+import { UniBubbles, useUniBubbles } from "react-native-unibubbles";
 
 const styles = StyleSheet.create({
   container: {
