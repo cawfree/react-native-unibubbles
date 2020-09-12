@@ -1,5 +1,5 @@
 # react-native-unibubbles
-The animated floating header for Uni. It's a way to use a config object to declare a group of nested floating animations which can be interrupted asynchronously.
+The animated floating header for [**Uni**](https://getuni.app). It's a way to use a config object to declare a group of nested floating animations which can be interrupted asynchronously.
 
 ## 🚀 Getting Started
 
