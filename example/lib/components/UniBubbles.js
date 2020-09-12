@@ -67,7 +67,7 @@ function UniBubbles({ style, width, bubbles, duration, start, stop }) {
   ); 
 
   return (
-    <UniBubbleContext.Provider value={{ offsets }}>
+    <UniBubbleContext.Provider value={{ offsets, bubbles }}>
       <Animated.View style={[StyleSheet.flatten(style), { width }]}>
         <Bubbles />
       </Animated.View>
