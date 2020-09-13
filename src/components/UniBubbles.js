@@ -40,7 +40,7 @@ const parseBubbles = ({ bubbles, angle, width }) => {
   return [Component, offsets];
 };
 
-function UniBubbles({ style, width, bubbles, duration, start, stop }) {
+function UniBubbles({ style, width, bubbles, duration, start, stop, children }) {
 
   const createLoop = useCallback(
     anim => Animated.sequence([
@@ -70,6 +70,7 @@ function UniBubbles({ style, width, bubbles, duration, start, stop }) {
     <UniBubbleContext.Provider value={{ offsets, bubbles }}>
       <Animated.View style={[StyleSheet.flatten(style), { width }]}>
         <Bubbles />
+        {children}
       </Animated.View>
     </UniBubbleContext.Provider>
   );
