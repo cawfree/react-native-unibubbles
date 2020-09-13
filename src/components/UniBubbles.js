@@ -63,7 +63,7 @@ function UniBubbles({ style, width, bubbles, duration, start, stop, children }) 
 
   useDeepCompareEffect(
     () => setBubbles(parseBubbles({ bubbles, angle, width })),
-    [bubbles, angle, width, setBubbles],
+    [bubbles, width, setBubbles],
   ); 
 
   return (
