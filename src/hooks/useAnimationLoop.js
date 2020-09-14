@@ -17,11 +17,11 @@ export default function useAnimationLoop(start, create = defaultCreate) {
   useEffect(
     () => {
       async function loopAnimation() {
-        await executeLoop().then(loopAnimation);
+        return executeLoop().then(loopAnimation);
       }
       /* ignore promise rejections on stop */
       loopAnimation()
-        .catch(console.error);
+        .catch(console.warn);
     },
     [executeLoop],
   );
