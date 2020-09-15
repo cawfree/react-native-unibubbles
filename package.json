@@ -12,7 +12,7 @@
     "react-native": "^0.63.2"
   },
   "name": "react-native-unibubbles",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1-alpha.3",
   "description": "An animated floating header component. You probably don't need it. 😜",
   "main": "dist",
   "repository": "https://github.com/cawfree/react-native-unibubbles",
